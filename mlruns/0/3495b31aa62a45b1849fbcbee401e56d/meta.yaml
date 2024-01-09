@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/3495b31aa62a45b1849fbcbee401e56d/artifacts
+end_time: 1704819156162
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3495b31aa62a45b1849fbcbee401e56d
+run_name: stylish-owl-883
+run_uuid: 3495b31aa62a45b1849fbcbee401e56d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704819152748
+status: 3
+tags: []
+user_id: HRH

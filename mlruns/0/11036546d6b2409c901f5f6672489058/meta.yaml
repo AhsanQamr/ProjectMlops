@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/11036546d6b2409c901f5f6672489058/artifacts
+end_time: 1704819145430
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 11036546d6b2409c901f5f6672489058
+run_name: colorful-duck-208
+run_uuid: 11036546d6b2409c901f5f6672489058
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704819142178
+status: 3
+tags: []
+user_id: HRH

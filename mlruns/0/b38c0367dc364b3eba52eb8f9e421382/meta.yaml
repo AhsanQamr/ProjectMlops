@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b38c0367dc364b3eba52eb8f9e421382/artifacts
+end_time: 1704819152731
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b38c0367dc364b3eba52eb8f9e421382
+run_name: charming-skink-610
+run_uuid: b38c0367dc364b3eba52eb8f9e421382
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704819149277
+status: 3
+tags: []
+user_id: HRH

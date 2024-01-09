@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/47a2449bafe84d9ca7cf05c6c33bfd6d/artifacts
+end_time: 1704819149262
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47a2449bafe84d9ca7cf05c6c33bfd6d
+run_name: overjoyed-shoat-886
+run_uuid: 47a2449bafe84d9ca7cf05c6c33bfd6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704819145449
+status: 3
+tags: []
+user_id: HRH

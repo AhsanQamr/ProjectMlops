@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/88156ea39df840f388e7af4ae9991c6a/artifacts
+end_time: 1704819159914
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 88156ea39df840f388e7af4ae9991c6a
+run_name: debonair-mole-735
+run_uuid: 88156ea39df840f388e7af4ae9991c6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704819156178
+status: 3
+tags: []
+user_id: HRH

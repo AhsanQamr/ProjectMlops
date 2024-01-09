@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/7616c3519ebb4477ab71bc6009db3202/artifacts
+end_time: 1704819142163
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7616c3519ebb4477ab71bc6009db3202
+run_name: useful-perch-68
+run_uuid: 7616c3519ebb4477ab71bc6009db3202
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704819138012
+status: 3
+tags: []
+user_id: HRH
