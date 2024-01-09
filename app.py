@@ -34,7 +34,7 @@ def upload_and_predict():
             # Prepare the results for display
 
             # hello world
-
+            # predictions are below
 
             prediction_results = pd.DataFrame({'Prediction': model_predictions})
             return render_template('prediction.html', prediction_results=prediction_results.to_html())
