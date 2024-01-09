@@ -93,11 +93,3 @@ jobs:
 
     - name: Push changes to main
       run: git push 
-
-    - name: Open a Pull Request to main branch
-      uses: repo-sync/pull-request@v2
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        pr_title: "Update Data [Automated PR]"
-        pr_body: "This is an automated PR to update data files."
-        destination_branch: "main"
