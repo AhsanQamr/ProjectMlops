@@ -26,7 +26,7 @@ jobs:
 
     - name: DVC Pull
       env:
-        GDRIVE_CREDENTIALS_DATA: ${{ secrets.GOOGLEDRIVE_SECRET }}
+        GDRIVE_CREDENTIALS_DATA: ${{ secrets.DRIVE_SECRET }}
       run: dvc pull
 
     - name: Run data generation script
@@ -87,7 +87,7 @@ jobs:
 
     - name: DVC Push
       env:
-        GDRIVE_CREDENTIALS_DATA: ${{ secrets.GOOGLEDRIVE_SECRET }}
+        GDRIVE_CREDENTIALS_DATA: ${{ secrets.DRIVE_SECRET }}
       run: |
         dvc push
 
