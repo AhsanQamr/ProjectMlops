@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/339f7a74d00547c38acd341c6597ac43/artifacts
+end_time: 1704201836209
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 339f7a74d00547c38acd341c6597ac43
+run_name: sedate-newt-252
+run_uuid: 339f7a74d00547c38acd341c6597ac43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704201829402
+status: 3
+tags: []
+user_id: User

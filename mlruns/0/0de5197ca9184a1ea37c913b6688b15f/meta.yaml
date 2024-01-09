@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0de5197ca9184a1ea37c913b6688b15f/artifacts
+end_time: 1704203614454
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0de5197ca9184a1ea37c913b6688b15f
+run_name: sneaky-pug-529
+run_uuid: 0de5197ca9184a1ea37c913b6688b15f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704203606198
+status: 3
+tags: []
+user_id: User

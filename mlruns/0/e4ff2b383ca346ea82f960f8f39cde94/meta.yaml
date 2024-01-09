@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/e4ff2b383ca346ea82f960f8f39cde94/artifacts
+end_time: 1704203637749
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e4ff2b383ca346ea82f960f8f39cde94
+run_name: redolent-stork-488
+run_uuid: e4ff2b383ca346ea82f960f8f39cde94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704203631659
+status: 3
+tags: []
+user_id: User

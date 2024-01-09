@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/a7ce98eb73f6423fbd69f8f4f7499cbb/artifacts
+end_time: 1704203619897
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a7ce98eb73f6423fbd69f8f4f7499cbb
+run_name: serious-gnu-232
+run_uuid: a7ce98eb73f6423fbd69f8f4f7499cbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704203614484
+status: 3
+tags: []
+user_id: User

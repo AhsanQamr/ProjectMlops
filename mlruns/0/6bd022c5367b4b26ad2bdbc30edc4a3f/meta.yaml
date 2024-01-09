@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/6bd022c5367b4b26ad2bdbc30edc4a3f/artifacts
+end_time: 1704201842030
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6bd022c5367b4b26ad2bdbc30edc4a3f
+run_name: zealous-frog-724
+run_uuid: 6bd022c5367b4b26ad2bdbc30edc4a3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704201836239
+status: 3
+tags: []
+user_id: User

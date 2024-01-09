@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/fe32822137be423b8febbe187a70a9bb/artifacts
+end_time: 1704203656498
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe32822137be423b8febbe187a70a9bb
+run_name: peaceful-bass-245
+run_uuid: fe32822137be423b8febbe187a70a9bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704203649535
+status: 3
+tags: []
+user_id: User

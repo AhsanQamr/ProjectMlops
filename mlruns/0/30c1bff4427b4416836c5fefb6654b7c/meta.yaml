@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/30c1bff4427b4416836c5fefb6654b7c/artifacts
+end_time: 1704203642967
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 30c1bff4427b4416836c5fefb6654b7c
+run_name: luminous-shark-249
+run_uuid: 30c1bff4427b4416836c5fefb6654b7c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704203637791
+status: 3
+tags: []
+user_id: User

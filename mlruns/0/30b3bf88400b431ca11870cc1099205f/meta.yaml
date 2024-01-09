@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/30b3bf88400b431ca11870cc1099205f/artifacts
+end_time: 1704202900575
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 30b3bf88400b431ca11870cc1099205f
+run_name: intrigued-fawn-182
+run_uuid: 30b3bf88400b431ca11870cc1099205f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704202895620
+status: 3
+tags: []
+user_id: User

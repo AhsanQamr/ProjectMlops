@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/aef00a3a414e461b8539701497499fc9/artifacts
+end_time: 1704201376799
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aef00a3a414e461b8539701497499fc9
+run_name: debonair-sow-569
+run_uuid: aef00a3a414e461b8539701497499fc9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704201368628
+status: 3
+tags: []
+user_id: User

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/90722c883a16423aaa944a49569dd7bf/artifacts
+end_time: 1704203631620
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 90722c883a16423aaa944a49569dd7bf
+run_name: carefree-moth-396
+run_uuid: 90722c883a16423aaa944a49569dd7bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704203625745
+status: 3
+tags: []
+user_id: User

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/49ffc293931248b5a09b906d995bc024/artifacts
+end_time: 1704202921826
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 49ffc293931248b5a09b906d995bc024
+run_name: whimsical-worm-497
+run_uuid: 49ffc293931248b5a09b906d995bc024
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704202915874
+status: 3
+tags: []
+user_id: User

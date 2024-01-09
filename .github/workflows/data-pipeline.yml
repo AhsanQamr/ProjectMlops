@@ -1,0 +1,103 @@
+name: Data Pipeline Workflow
+
+on:
+  workflow_dispatch:
+    
+  schedule:
+    - cron: '*/5 * * * *'  # Adjust as needed
+
+jobs:
+  data-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: DVC Pull
+      env:
+        GDRIVE_CREDENTIALS_DATA: ${{ secrets.GOOGLEDRIVE_SECRET }}
+      run: dvc pull
+
+    - name: Run data generation script
+      run: python scripts/random_data.py
+
+    # Run data pre-processing and model training with MLflow tracking
+    - name: Run data pre-processing and model training with MLflow
+      run: python preprocess.py
+
+    # MLflow specific steps (if needed, like setting up MLflow server, etc.)
+    - name: Run Model On Test Data
+      run: |
+        python test.py new_model_metrics.json
+
+    - name: Calculate and log metrics difference
+      run: |
+          OLD_METRICS=$(cat $OLD_METRICS_FILE_PATH)
+          NEW_METRICS=$(cat $NEW_METRICS_FILE_PATH)
+          METRICS_DIFFERENCE=$(python -c "import json; old_metrics = json.loads('''$OLD_METRICS'''); new_metrics = json.loads('''$NEW_METRICS'''); metrics_difference = {key: new_metrics[key] - old_metrics.get(key, 0) for key in new_metrics}; print(json.dumps(metrics_difference))")
+              
+          # Get the current date in the format YYYY-MM-DD
+          CURRENT_DATE=$(date +"%Y-%m-%d")
+          
+          # Log the metrics difference with the current date
+          echo "Date: $CURRENT_DATE, Metrics Difference: $METRICS_DIFFERENCE" >> metrics_difference.log
+          cat metrics_difference.log
+  
+      env:
+            OLD_METRICS_FILE_PATH: current_model_metrics.json
+            NEW_METRICS_FILE_PATH: new_model_metrics.json
+    
+    
+    - name: Stage and Commit Changes
+      run: |
+        git add metrics_difference.log new_model_metrics.json
+        git commit -m "Update metrics logs" || echo "No changes to commit"
+
+    - name: Push Changes
+      run: |
+        git push origin HEAD:main
+  
+    - name: Check metrics difference and retrain if needed
+      run: |
+          python trainingnewmodel.py
+
+
+    - name: Configure git with my information
+      run: |
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Actions"
+
+    - name: DVC Add & Commit
+      run: |
+        dvc add data/dummy_sensor_data.csv
+        git add data/dummy_sensor_data.csv.dvc
+        git commit -m "Update data with DVC" || echo "No changes to commit"
+        
+
+    - name: DVC Push
+      env:
+        GDRIVE_CREDENTIALS_DATA: ${{ secrets.GOOGLEDRIVE_SECRET }}
+      run: |
+        dvc push
+
+    - name: Push changes to main
+      run: git push 
+
+    - name: Open a Pull Request to main branch
+      uses: repo-sync/pull-request@v2
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        pr_title: "Update Data [Automated PR]"
+        pr_body: "This is an automated PR to update data files."
+        destination_branch: "main"

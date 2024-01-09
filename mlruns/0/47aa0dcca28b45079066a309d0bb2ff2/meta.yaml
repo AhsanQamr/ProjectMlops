@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/47aa0dcca28b45079066a309d0bb2ff2/artifacts
+end_time: 1704201398512
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47aa0dcca28b45079066a309d0bb2ff2
+run_name: unique-bird-700
+run_uuid: 47aa0dcca28b45079066a309d0bb2ff2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704201388810
+status: 3
+tags: []
+user_id: User

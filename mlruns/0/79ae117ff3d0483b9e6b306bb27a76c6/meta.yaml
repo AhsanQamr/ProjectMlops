@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/79ae117ff3d0483b9e6b306bb27a76c6/artifacts
+end_time: 1704201382987
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 79ae117ff3d0483b9e6b306bb27a76c6
+run_name: bouncy-penguin-462
+run_uuid: 79ae117ff3d0483b9e6b306bb27a76c6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704201376823
+status: 3
+tags: []
+user_id: User

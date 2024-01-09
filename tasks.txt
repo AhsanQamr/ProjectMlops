@@ -1,0 +1,9 @@
+i191886 Abdul Rehman
+Task - Data Pipeline and DVC Integration & Docker file
+i190498 Masroor Ahmed
+Task - Mlflow integration concept drifting,docker image yaml
+i190466 Aftab Ali
+Task-Interface of web application
+i190736 Faiq Asif
+Task - Preprocessing data, Flask app
+

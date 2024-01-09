@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/c0b57ad8f3b74f0b8d96483bf0256eab/artifacts
+end_time: 1704202910017
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c0b57ad8f3b74f0b8d96483bf0256eab
+run_name: useful-shrew-751
+run_uuid: c0b57ad8f3b74f0b8d96483bf0256eab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704202905276
+status: 3
+tags: []
+user_id: User

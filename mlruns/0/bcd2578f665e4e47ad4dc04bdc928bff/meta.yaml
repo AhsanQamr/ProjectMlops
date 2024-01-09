@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/bcd2578f665e4e47ad4dc04bdc928bff/artifacts
+end_time: 1704201359577
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bcd2578f665e4e47ad4dc04bdc928bff
+run_name: loud-cat-718
+run_uuid: bcd2578f665e4e47ad4dc04bdc928bff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704201353566
+status: 3
+tags: []
+user_id: User
