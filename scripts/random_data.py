@@ -52,7 +52,7 @@ def generate_dummy_data(start_date, end_date, num_machines=5, num_sensors=3, fre
                 # Simulate sensor readings as random values
                 data['Reading'].append(np.random.normal(loc=100, scale=20))
 
-    return pd.DataFrame(data)
+    return pd.DataFrame(data)  
 
 
 if __name__ == "__main__":
