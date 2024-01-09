@@ -6,7 +6,7 @@ import mlflow
 import mlflow.sklearn
 
 # Setting MLflow tracking URI
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_tracking_uri("http://127.0.0.1:5000") 
 
 # Loading data
 data = pd.read_csv("data/preprocessed_data.csv")
