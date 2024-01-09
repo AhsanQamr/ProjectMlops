@@ -5,6 +5,7 @@ import pandas as pd
 # Initializing Flask app
 flask_app = Flask(__name__)
 
+
 # Path to the MLflow model
 model_path = "model_selection/"
 # Load the MLflow model
@@ -14,6 +15,7 @@ model = mlflow.pyfunc.load_model(model_path)
 
 
 @flask_app.route('/', methods=['GET', 'POST'])
+
 def upload_and_predict():
     if request.method == 'POST':
         # Retrieve the uploaded file

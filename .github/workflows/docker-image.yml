@@ -3,7 +3,7 @@ name: Docker Image Image Push
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
